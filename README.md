@@ -18,11 +18,11 @@ https://ifutureapp.surge.sh/
 
 - O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço.
 - Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara.
-- Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes.
+- Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes. 
 
 ### - Busca e Seleção de Restaurantes:
 
-![2](https://user-images.githubusercontent.com/102267210/193480360-075ca645-7435-4895-b534-431ee6c0465b.PNG) ![3](https://user-images.githubusercontent.com/102267210/193480362-c611a494-9d3b-4cf6-9f69-92b4fed74640.PNG)![4](https://user-images.githubusercontent.com/102267210/193480396-0d3f7494-eee7-4781-9c9d-cfe2f363c7fe.PNG)
+![2](https://user-images.githubusercontent.com/102267210/193480360-075ca645-7435-4895-b534-431ee6c0465b.PNG) ![3](https://user-images.githubusercontent.com/102267210/193480362-c611a494-9d3b-4cf6-9f69-92b4fed74640.PNG) ![4](https://user-images.githubusercontent.com/102267210/193480396-0d3f7494-eee7-4781-9c9d-cfe2f363c7fe.PNG)
 
 - O usuário deve ser capaz de visualizar uma lista com todos os restaurantes.
 - O usuário deve ser capaz de buscar um restaurante por nome.
@@ -53,7 +53,10 @@ https://ifutureapp.surge.sh/
 
 ### - Perfil, Editar Perfil e Histórico de Pedidos:
 
-![7](https://user-images.githubusercontent.com/102267210/193480569-2de91f2b-9d81-446a-976d-e4ccd85f2058.PNG)
+![7](https://user-images.githubusercontent.com/102267210/193714467-5163b103-8a70-49b1-bf98-c7a3b93ac821.PNG) 
+![10](https://user-images.githubusercontent.com/102267210/193714469-992b0163-9677-4b60-a2c7-91b4796e7ca0.PNG) 
+![11](https://user-images.githubusercontent.com/102267210/193714470-671486f2-2fef-473d-be4e-d6b35e24fbf0.PNG) 
+
 
 - O usuário deve ser capaz de visualizar e editar seus dados pessoais e endereço.
 - Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara.
