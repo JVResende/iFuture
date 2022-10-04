@@ -8,7 +8,7 @@ Aplicativo web que simula o Ifood, onde o usuário faz os pedidos, acessa o carr
 
 ## 🔗 Link para acessar
 
-https://ifood-app.surge.sh/
+https://ifutureapp.surge.sh/
 
 ## 💻 Funcionalidades
 
