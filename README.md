@@ -8,7 +8,13 @@ Aplicativo web que simula o Ifood, onde o usuário faz os pedidos, acessa o carr
 
 ## 🔗 Link para acessar
 
-https://ifutureapp.surge.sh/
+Se for abrir o site no computador, siga os seguintes passos para ter a experiência de um aplicativo:
+
+1. Clique no link https://ifutureapp.surge.sh/.
+2. Aperte F12.
+3. Clique aonde as setas da imagem abaixo estão indicando e coloque como responsive e o tamanho de 360x640.
+
+![passos](https://user-images.githubusercontent.com/102267210/193830669-06fb206d-73e2-490d-b013-1ba9efcc4934.PNG)
 
 ## 💻 Funcionalidades
 
