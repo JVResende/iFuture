@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Projeto LabeFood
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![logo](https://user-images.githubusercontent.com/102267210/193479015-a2804e1c-c166-46fb-a65f-4e9099454881.svg)
 
-## Available Scripts
+## 📄 Sobre
 
-In the project directory, you can run:
+Aplicativo web que simula o Ifood, onde o usuário faz os pedidos, acessa o carrinho de compras, finaliza a compra, altera seus dados e verifica o tempo de espera do pedido.
 
-### `npm start`
+## 🔗 Link para acessar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://ifood-app.surge.sh/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Funcionalidades
 
-### `npm test`
+### - Fluxo de Login/Cadastro:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![login](https://user-images.githubusercontent.com/102267210/193480285-83e48e82-ea9e-4c4f-9195-a437f6e36145.PNG) ![8](https://user-images.githubusercontent.com/102267210/193480659-3a6eaed9-a44f-4e5d-83ba-0088439d6180.PNG) ![9](https://user-images.githubusercontent.com/102267210/193480700-a19ce795-46c2-42d3-9307-842cef3b36b5.PNG)
 
-### `npm run build`
+- O usuário deve ser capaz de criar uma conta, cadastrando seus dados pessoais e seu endereço.
+- Caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara.
+- Após finalizar o cadastro, o usuário deve ser redirecionado para a tela de lista de restaurantes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### - Busca e Seleção de Restaurantes:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![2](https://user-images.githubusercontent.com/102267210/193480360-075ca645-7435-4895-b534-431ee6c0465b.PNG) ![3](https://user-images.githubusercontent.com/102267210/193480362-c611a494-9d3b-4cf6-9f69-92b4fed74640.PNG)![4](https://user-images.githubusercontent.com/102267210/193480396-0d3f7494-eee7-4781-9c9d-cfe2f363c7fe.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- O usuário deve ser capaz de visualizar uma lista com todos os restaurantes.
+- O usuário deve ser capaz de buscar um restaurante por nome.
+- O usuário deve ser capaz de filtrar os restaurantes por categoria.
+- O usuário deve ser capaz de clicar no card de um restaurante para visualizar a tela com seu cardápio.
 
-### `npm run eject`
+### - Cardápio do Restaurante:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![5](https://user-images.githubusercontent.com/102267210/193480453-99a55cb9-8a5a-4e21-b79e-c9f9785398d3.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- O usuário deve ser capaz de visualizar as informações do restaurante (foto, nome, tipo, tempo de entrega, frete, endereço).
+- O usuário deve ser capaz de visualizar os produtos do restaurante.
+- O usuário deve ser capaz de visualizar as informações de cada prato (foto, nome, descrição, preço).
+- O usuário deve ser capaz de adicionar pratos no carrinho e selecionar a quantidade de cada prato.
+- O usuário deve ser capaz de remover itens do carrinho.
+- Se já tiver algum item de outro restaurante no carrinho, aparece uma mensagem perguntando para o usuário se ele deseja limpar o carrinho.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### - Carrinho e Finalizar Compra:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![6](https://user-images.githubusercontent.com/102267210/193480540-41f5bed9-5144-496b-9a2b-6cebc272dbe2.PNG) ![9](https://user-images.githubusercontent.com/102267210/193482293-5f0f2fda-7052-4b56-a282-3f2d0beb2bd3.PNG)
 
-## Learn More
+- O usuário deve ser capaz de visualizar a lista de itens que adicionou ao carrinho. Caso não tenha adicionado nenhum item, deverá ver uma mensagem de "Carrinho Vazio".
+- O usuário deve visualizar, no topo da tela, o endereço de entrega.
+- O usuário deve visualizar o preço total da compra, que deve ser corretamente calculado de acordo com o preço e quantidade de cada item adicionado juntamente com o preço do frete.
+- O usuário deve ser capaz de selecionar uma forma de pagamento dentre as opções de cartão de crédito e dinheiro.
+- O usuário deve ser capaz de concluir um pedido e, ao fazê-lo, deve ver um banner de "Pedido em Andamento" com os dados do pedido (esse banner fica ativo durante o tempo de entrega do restaurante).
+- Se já houver um pedido em andamento, o usuário não poderá realizar outro pedido até que a entrega seja concluída.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### - Perfil, Editar Perfil e Histórico de Pedidos:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![7](https://user-images.githubusercontent.com/102267210/193480569-2de91f2b-9d81-446a-976d-e4ccd85f2058.PNG)
 
-### Code Splitting
+- O usuário deve ser capaz de visualizar e editar seus dados pessoais e endereço.
+- Ao editar as informações, caso insira alguma informação incorreta ou deixe de inserir alguma informação obrigatória, o usuário deve receber uma mensagem de erro clara.
+- O usuário deve ser capaz de visualizar o seu histórico de pedidos concluídos.
+- Caso queira, o usuário pode clicar no botaão "sair" para fazer o logout.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 👩‍💻 Desenvolvedores:
 
-### Analyzing the Bundle Size
+- João Vitor Gomes Lara Resende.
+- Rafael Gonçalves Quintanilha Guimarães.
+- Nei Luis Duarte Tavares Junior.
+- Rafael Castilho Castro.
+- Lucas Ferreira Arruda.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
