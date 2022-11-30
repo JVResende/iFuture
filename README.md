@@ -69,5 +69,10 @@ Se for abrir o site no computador, siga os seguintes passos para ter a experiên
 - O usuário deve ser capaz de visualizar o seu histórico de pedidos concluídos.
 - Caso queira, o usuário pode clicar no botaão "sair" para fazer o logout.
 
+## 👩‍💻 Desenvolvedores:
 
-
+- João Vitor Gomes Lara Resende.
+- Rafael Gonçalves Quintanilha Guimarães.
+- Nei Luis Duarte Tavares Junior.
+- Rafael Castilho Castro.
+- Lucas Ferreira Arruda.
