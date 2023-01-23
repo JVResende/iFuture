@@ -68,7 +68,34 @@ If you are going to open the site on your computer, follow these steps to get th
 - The user must be able to view his history of completed orders.
 - If you want, the user can click on the "exit" button to log out.
 
-## 👩‍💻 Developers:
+## ⚙️ Setup
+
+Clone down this repository. You will need node and npm installed globally on your machine.
+
+Installation:
+
+$ npm install
+$ npm install axios
+$ npm install styled-components
+$ npm install react-router-dom
+$ npm install @material-ui/core @material-ui/icons
+
+To start the project:
+
+$ npm start
+
+Now just test it in your browser!
+
+## Technologies
+
+- ReactJS
+- API
+- Material UI
+- Axios
+- React-Router-Dom
+- Agile Methodologies
+
+## 👩‍💻 Developers
 
 - João Vitor Gomes Lara Resende.
 - Rafael Gonçalves Quintanilha Guimarães.
