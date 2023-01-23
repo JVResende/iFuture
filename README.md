@@ -72,23 +72,27 @@ If you are going to open the site on your computer, follow these steps to get th
 
 Clone down this repository. You will need node and npm installed globally on your machine.
 
-Installation:
+- Installation:
 
-$ npm install
-$ npm install axios
-$ npm install styled-components
-$ npm install react-router-dom
-$ npm install @material-ui/core @material-ui/icons
+```
+  $ npm install
+  $ npm install axios
+  $ npm install styled-components
+  $ npm install react-router-dom
+  $ npm install @material-ui/core @material-ui/icons
+```
 
-To start the project:
+- To start the project:
 
-$ npm start
+```
+  $ npm start
+```
 
 Now just test it in your browser!
 
-## Technologies
+## 🛠 Technologies
 
-- ReactJS
+- React.js
 - API
 - Material UI
 - Axios
